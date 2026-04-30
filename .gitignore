@@ -1,0 +1,23 @@
+# --- Environment & Dependencies ---
+# We don't upload the virtual env because it's huge and computer-specific
+music_env/
+env/
+venv/
+
+# --- Secrets & Privacy ---
+# NEVER upload your API keys!
+.env
+
+# --- Python System Files ---
+# Temporary files created when Python runs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- IDE Settings ---
+# Private VS Code settings
+.vscode/
+
+# --- Hardware/OS garbage ---
+.DS_Store
+Thumbs.db
