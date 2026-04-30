@@ -1,5 +1,4 @@
-```markdown
-# 🎧 Vibe-to-Music DJ: AI Micro-Expression Analyst
+# 🎧 Vibe-to-Music : AI Micro-Expression Analyst who recommend song
 
 An AI-driven music recommendation engine that uses Computer Vision and Large Language Models (LLMs) to detect your mood via facial micro-expressions and instantly curate a matching YouTube Music session.
 
@@ -33,21 +32,23 @@ Clone the repository and run the automated setup script. This will create your v
 
 ```bash
 # Clone the project
-git clone {git reposetory link}
+git clone {git repository link}
 cd music_recommender
 
 # Run the automated setup (creates environment and .env template)
 ./setup.bat
-
-3. Configuration
+```
+### 3. Configuration
 The setup.bat script automatically creates a .env file for you in the root directory.
 
 Open the .env file with any text editor (Notepad, VS Code, etc.).
 
 Replace the placeholder text with your actual key:
 
-Code snippet
+```bash
 GEMINI_API_KEY=your_actual_key_here
+```
+
 Save the file.
 
 
