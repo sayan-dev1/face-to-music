@@ -39,9 +39,9 @@ cd music_recommender
 ./setup.bat
 ```
 ### 3. Configuration
-The setup.bat script automatically creates a .env file for you in the root directory.
+The `setup.bat` script automatically creates a `.env` file for you in the root directory.
 
-Open the .env file with any text editor (Notepad, VS Code, etc.).
+Open the `.env` file with any text editor (Notepad, VS Code, etc.).
 
 Replace the placeholder text with your actual key:
 
